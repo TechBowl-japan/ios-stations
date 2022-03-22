@@ -114,7 +114,7 @@ class ios_stationsTests: XCTestCase {
         let titleLabel = try XCTUnwrap(button.titleLabel, "ボタンのラベルテキストが設定されていません")
         XCTAssertEqual(titleLabel.text, "Click", "ボタンのラベルテキストがClickに設定されていません")
         XCTAssertEqual(titleLabel.textColor, UIColor.white, "ボタンのラベルテキストの背景色が指定されたものと異なっています")
-        XCTAssertEqual(titleLabel.font, UIFont(name: "Arial", size: 18), "ボタンのフォントが適切に設定されていません")
+        XCTAssertEqual(titleLabel.font, UIFont(name: "Arial-BoldMT", size: 18), "ボタンのフォントが適切に設定されていません")
     }
     
     // MARK: station9は面談
