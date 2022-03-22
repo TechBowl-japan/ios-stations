@@ -6,12 +6,14 @@
 import UIKit
 
 class FirstViewController: UIViewController {
-
+    
+    @IBOutlet weak var label: UILabel!
+    
     var books: [Book]?
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        view.backgroundColor = UIColor.Theme.main
+        label.text = "Hello World"
     }
 
 }
