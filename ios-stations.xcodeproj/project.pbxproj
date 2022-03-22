@@ -42,7 +42,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		43634D1D27E96CDC00EA9266 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		43634D1F27E96D1300EA9266 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		43634D2027E96D1300EA9266 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		43634D2127E96D2200EA9266 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -339,7 +338,6 @@
 		43634D1E27E96CDC00EA9266 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				43634D1D27E96CDC00EA9266 /* en */,
 				43634D2127E96D2200EA9266 /* ja */,
 			);
 			name = InfoPlist.strings;
