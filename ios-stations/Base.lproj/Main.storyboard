@@ -18,30 +18,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OvR-8a-nlJ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKe-51-xNj">
                                 <rect key="frame" x="107" y="426" width="200" height="44"/>
                                 <color key="backgroundColor" name="Main"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="Hfn-cD-w0J"/>
-                                    <constraint firstAttribute="height" constant="44" id="plu-wn-h9L"/>
+                                    <constraint firstAttribute="height" constant="44" id="uOQ-uQ-zsW"/>
+                                    <constraint firstAttribute="width" constant="200" id="xmh-P3-Pfb"/>
                                 </constraints>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Click">
                                     <fontDescription key="titleFontDescription" name="Arial-BoldMT" family="Arial" pointSize="18"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="clickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lz4-6Z-bkI"/>
+                                    <action selector="clickButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Gb-ID-G2g"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="OvR-8a-nlJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="TiV-d9-vDg"/>
-                            <constraint firstItem="OvR-8a-nlJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="abs-Sq-mmU"/>
+                            <constraint firstItem="dKe-51-xNj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LNi-Ia-CV7"/>
+                            <constraint firstItem="dKe-51-xNj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hD3-Y8-8r9"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="clickButton" destination="dKe-51-xNj" id="Ral-Ao-zQB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -12,6 +12,6 @@ extension UIColor {
     
     static var random: UIColor {
         let r = CGFloat.random(in: 0...255) / 255.0
-        return UIColor(red: r, green: 1.0, blue: 1.0, alpha: 1.0)
+        return UIColor(red: r, green: r, blue: r, alpha: 1.0)
     }
 }
