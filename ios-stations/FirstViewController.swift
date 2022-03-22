@@ -7,13 +7,10 @@ import UIKit
 
 class FirstViewController: UIViewController {
     
-    @IBOutlet weak var label: UILabel!
-    
     var books: [Book]?
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        label.text = "Hello World"
     }
 
 }
@@ -31,5 +28,7 @@ extension FirstViewController: UITableViewDataSource {
 extension FirstViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     }
+    
+    
 }
 
