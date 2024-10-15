@@ -17,7 +17,7 @@ if [ $reportRowCount -le 2 ]; then
         # テスト通過
         cat station_result.xml
         clear
-        exit 0        
+        exit 1
     else
         # コンパイルエラー
         cat ios-stationsTests/junit_compile_error.xml
