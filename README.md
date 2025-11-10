@@ -40,7 +40,7 @@ $ gem install xcpretty
 
 `gem`コマンドの実行でエラーが出る場合は、Ruby が正しくインストールされてパスが通っていること、[Homebrew](https://brew.sh/index_ja) が正しく構成されていることを確認してください。
 
-Node と Yarn のインストール方法やバージョンの確認については、[Railway 準備編](https://www.notion.so/techbowl/Railway-ceba695d5014460e9733c2a46318cdec) をご確認ください。※ GitHub Codespaces についての資料はスキップしてください。
+Node と Yarn のインストール方法やバージョンの確認については、[Railway 準備編](https://techbowl.notion.site/Railway-ceba695d5014460e9733c2a46318cdec) をご確認ください。※ GitHub Codespaces についての資料はスキップしてください。
 
 その他リポジトリの更新の仕方や、トラブルシューティングについても上記の Railway 準備編にございます。
 何かあった際は、まずそちらを確認しましょう。
