@@ -9,7 +9,7 @@
     "node": ">=20.0.0"
   },
   "dependencies": {
-    "@techtrain/cli-railway": "0.2.3"
+    "@techtrain/cli-railway": "^0.2.14"
   },
   "devDependencies": {
     "simple-git-hooks": "^2.5.1"
